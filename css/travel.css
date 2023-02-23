@@ -60,3 +60,7 @@ section {
     text-decoration: none;
     color: #FEFBE9;
 }
+
+.active {
+    background: #F0A04B;
+}
