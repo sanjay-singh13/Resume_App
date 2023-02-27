@@ -23,6 +23,10 @@ section {
 }
 
 .navbar {
+    /* overflow: hidden;
+    position: fixed;
+    top : 0;
+    right:0; */
     background: #183A1D;
     color: #FEFBE9;
     display: flex;
@@ -64,5 +68,46 @@ section {
 .active {
     background: #F0A04B;
     /* color: #183A1D; */
+}
+
+
+
+.my-colleges {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.college-list {
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 2rem;
+    
+}
+
+.college {
+    background: rgba(240, 160, 75, 0.2);
+    display: flex;
+    gap: 1%;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 1rem;
+}
+
+
+
+.college img {
+    /* width: 500px; */
+    width: 29vw;
+    /* height: 300px; */
+    height: 20vh;
+    padding: 1rem;
+    /* object-fit: cover; */
+    
+}
+
+.college-details {
+    padding-right: 1rem;
 }
 
