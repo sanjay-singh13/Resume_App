@@ -11,12 +11,12 @@ section {
 
 .main {
     width: 80vw;
-    height: 100vh;
     background: #FEFBE9;
     margin: auto;
 }
 
 .navbar {
+    
     background: #183A1D;
     color: #FEFBE9;
     display: flex;
@@ -59,3 +59,98 @@ section {
     background: #F0A04B;
 }
 
+.resume {
+    text-align: center;
+}
+
+.resume-card {
+    background: white;
+    width: 80%;
+    height: 70%;
+    margin: auto;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.left {
+    width: 35%;
+}
+
+.profile-section {
+    height: 40vh;
+    background: #183A1D;
+    padding-top: 3rem;
+    /* padding: 2rem; */
+    color: white;
+    margin-bottom: 4rem;
+}
+
+.profile-section img {
+    width: 50%;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.about-me {
+    margin-bottom: 4rem;
+}
+
+
+
+
+
+
+
+
+
+.right {
+    width: 50%;
+}
+
+.work h2 {
+    margin: 0;
+}
+
+.subject-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+}
+
+.year {
+    height: 90px;
+    width: 90px;
+    background: #183A1D;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    
+}
+
+.year h5{
+    margin: 0;
+}
+
+.content {
+    width: 80%;
+}
+
+.left-right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-right h5 {
+    margin: 0;
+}
+
+.education .year {
+    background: #a3b0a5;
+    color: black;
+}
